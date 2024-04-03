@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+.section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	text-align: center;
+	color: grey;
+}
+.container{
+	margin: 30px;
+	width: 300px;
+	height: 300px;
+	background-color: beige;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	gap: 0.5rem;
+}
+button{
+	
+	width: 30%;
+	height: 30%;
+	background-color: grey;
+	font-size: 25px;
+	color: white;
+}
+#resetbtn{
+	width: 10%;
+	height: 30%;
+	font-size: 20px;
+	position: relative;
+	left: 45%;
+}
